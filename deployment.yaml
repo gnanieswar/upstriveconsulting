@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: react-todo-app
-        image: <your-docker-username>/react-todo-app:latest
+        image: react-todo-app:latest
         ports:
         - containerPort: 80
